@@ -7,9 +7,9 @@ def rectangle (w,h):
     return area
 def triangle (w,h):
     area = 0.5 * w * h
-    return area
+    print(area)
 #main entry point 
 w = int(input('Weight = '))
 h = int(input('Height = '))
-print(rectangle(w,h)) #order run def function 
-print(triangle(w,h))
+#rectangle(20,2010) #order run def function 
+triangle(w,h)
