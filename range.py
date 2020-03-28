@@ -1,6 +1,6 @@
-# r = range(10) # (0, 10) (inclusive, exclusive)
-# print(r)
-# print(list(r))
+r = range(10) # (0, 10) (inclusive, exclusive)
+print(r)
+print(list(r))
 # print(len(r)) #length
 # print(type(r))
 
@@ -16,9 +16,9 @@
 # r4 = range(10, 0, 2)
 # print(list(r4))
 
-n = range(1, 11)
-print(sum(n))
+# n = range(1, 11)
+# print(sum(n))
 
-n2 = range(1, 101, 2)
-print(list(n2))
-print(sum(n2))
+# n2 = range(1, 101, 2)
+# print(list(n2))
+# print(sum(n2))

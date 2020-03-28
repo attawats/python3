@@ -7,7 +7,7 @@ def demo1():
     print('1{0}' .format('0' * 100))
 
     # f-string (python 3.6++)
-    print(f'1{"0" * 100}')
+    print(f'1{"0" * 10}{"1"*2}')
 
 def demo2():
     print('1', end = '')
@@ -27,5 +27,5 @@ def repeat2(ch, times):
 
 # print('1', end = '')
 # repeat('0', 5)
-print(repeat2('0', 6))
-print('1'+repeat2('0', 100))
+# print(repeat2('0', 6))
+# print('1'+repeat2('0', 100))
